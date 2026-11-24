@@ -1,0 +1,303 @@
+.header_skills_text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header_title{
+    text-align: center;
+    margin:60px auto 30px;
+}
+
+.project_details {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+/* Hero */
+
+.project_hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.project_hero_image img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 8px 25px rgba(105,17,117,.5);
+}
+
+.project_category {
+    color: #d87093;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.project_hero_content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.project_hero_content > p {
+    line-height: 1.7;
+    
+}
+
+.project_tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.project_tags span {
+    
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+    background: rgba(216, 112, 147, 0.192);;
+    border-radius: 15px;
+    text-shadow: 0 2px 12px #000000;
+    color: rgb(211, 206, 206);
+}
+
+/* Sections */
+
+.project_about {
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+.project_about h2,
+.project_development h2 {
+    margin-bottom: 20px;
+}
+
+.project_about p,
+.project_about li,
+.project_development > p {
+     color: rgb(211, 211, 211);
+    line-height: 1.8;
+}
+
+.project_about ul {
+    padding-left: 25px;
+}
+
+/* Gallery */
+
+.project_development {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.project_gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project_gallery img {
+    width: 100%;
+    height: 380px;
+    object-fit:fill;
+    border-radius: 15px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 1024px) and (min-width:768px) {
+    .project_gallery img{
+        height: 300px;
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .project_details {
+        width: 95%;
+        margin: 35px auto;
+    }
+   
+
+    .project_hero {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    
+
+    .project_gallery img{
+        grid-template-columns: 1fr;
+    }
+
+    .project_gallery img {
+        height: 200px;
+        object-fit: fill;
+    }
+
+    .project_about {
+        padding: 22px 18px;
+    }
+
+    
+    .project_about li
+    {
+        font-size: 15px;
+    }
+}
+/* ************************************ */
+
+
+
+/* Main Project */
+
+/* Wozniak Main */
+
+.wozniak_project {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+
+/* Hero */
+
+.wozniak_hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.wozniak_hero_image img {
+    width: 90%;
+    border-radius: 20px;
+    display: block;
+    filter: drop-shadow(4px 1px 15px #38012efb);
+}
+
+.wozniak_hero_content .wozniak_category {
+    color: #d87093;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.wozniak_hero_content h1 {
+    
+    margin-bottom: 20px;
+}
+
+.wozniak_hero_content > p {
+    line-height: 1.7;
+}
+
+
+/* Project Tags */
+/* Reusing .project_tags from Granton */
+
+
+/* Project Status */
+
+.wozniak_status {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: rgba(216, 112, 147, 0.192);
+    color: rgb(211, 206, 206);
+    text-shadow: 0 2px 12px #000000;
+}
+
+
+/* Content Sections */
+
+.wozniak_about,
+.wozniak_challenge,
+.wozniak_improvements,
+.wozniak_technologies,
+.wozniak_learning {
+    padding: 30px;
+    margin-bottom: 35px;
+}
+
+.wozniak_project h2 {
+    margin-bottom: 20px;
+}
+
+.wozniak_project p,
+.wozniak_project li {
+    color: rgb(211, 211, 211);
+    line-height: 1.8;
+}
+
+.wozniak_project ul {
+    padding-left: 25px;
+}
+
+
+/* Development Gallery */
+
+.wozniak_development {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.wozniak_development h2 {
+    margin-bottom: 20px;
+}
+
+.wozniak_development > p {
+    color: rgb(211, 211, 211);
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+ 
+
+    .wozniak_hero {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .wozniak_gallery {
+        grid-template-columns: 1fr;
+    }
+
+    
+
+    .wozniak_about,
+    .wozniak_challenge,
+    .wozniak_improvements,
+    .wozniak_technologies,
+    .wozniak_learning {
+        padding: 22px 18px;
+    }
+
+    .wozniak_project li {
+        font-size: 15px;
+    }
+
+}
+
+
