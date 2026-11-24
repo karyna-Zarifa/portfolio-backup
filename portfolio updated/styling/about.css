@@ -1,0 +1,224 @@
+
+
+.header_title{
+    text-align: center;
+    margin: 60px auto;
+}
+
+/* ************************************ */
+.about_intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 50px;
+    max-width: 1600px;
+    width: 90%;
+    margin: 70px auto;
+    
+}
+.about_img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(4px 1px 15px #3f05c7fb);
+    
+}
+.about_img img {
+    width: 100%;  
+    max-width: 400px;
+    border-radius: 20px;
+    aspect-ratio: 4 / 5;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    align-self: center;
+    
+}
+.about_who {
+    height: 100%;
+    text-align: center;
+}
+
+.about_who h2{
+    margin-bottom: 20px;
+}
+.about_who p {
+    
+    line-height: 1.8;
+   
+}
+
+@media (min-width: 1100px) {
+    .about_who p {
+    
+    font-size: 23px;
+   
+}
+}
+
+
+@media (max-width: 1100px) {
+    .about_intro {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .about_img img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+/* *********************************** */
+
+.education_cards{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    width:90%;
+    margin:50px auto;
+
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    gap:40px;
+}
+.education_img img{
+    border-radius: 20px;
+     filter: drop-shadow(1px 1px 15px #8f0383fb);
+    
+    
+    
+}
+.education_cards h2{
+    margin-bottom: 30px;
+}
+
+.education_cards h3{
+    margin-bottom: 25px;
+}
+.education_cards p {
+    margin: 7px 5px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1050px) {
+
+    .education_cards {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin: 30px auto;
+        gap: 25px;
+    }
+
+    .education_img img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .education_cards h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .education_cards h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .education_cards p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin: 10px 0;
+    }
+
+}
+@media (max-width: 768px) {
+     .education_cards p {
+        font-size: 15px;
+        
+    }
+    .education_cards h2 {
+        font-size: 26px;
+}
+.education_cards h3 {
+        font-size: 23px;
+}
+}
+
+
+/* ***************************************** */
+.education_exploring{
+   
+    background: linear-gradient(65deg,rgba(0, 0, 255, 0.637),#ff00c873) border-box;
+    box-shadow: 0 8px 25px rgba(105, 17, 117, 0.616);
+
+    border-radius: 30px;
+    
+    padding: 30px ;
+    text-align: center;
+    margin: 20px auto 70px auto;
+    max-width: 1200px;
+    width:90%;
+
+}
+
+.education_exploring h2 {
+    margin-bottom: 25px;
+}
+
+.exploring_topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.exploring_topics p {
+    margin: 0;
+    padding: 12px 20px;
+   
+
+    background: rgba(216, 112, 147, 0.192);;
+    border-radius: 10px;
+    text-shadow: 0 2px 12px #000000;
+    color: rgb(211, 206, 206);
+}
+
+@media (max-width: 768px) {
+    .education_exploring {
+        width: 95%;
+        padding: 20px 12px;
+        margin: 25px auto;
+    }
+}
+
+
+
+
+/* ***************************************** */
+
+.hobbies_card{
+    width:1600px;
+    max-width: 90%;
+    text-align: center;
+    margin:30px auto;
+    
+
+}
+.hobbies_title{
+    margin-bottom: 30px;
+}
+.hobbies_text p{
+    line-height: 1.5;
+}
+.hobbies_text h3{
+    margin-bottom: 20px;
+}
+
+
